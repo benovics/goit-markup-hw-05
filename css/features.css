@@ -1,0 +1,38 @@
+.features-icon {
+  background-color: #f4f4fd;
+  display: flex;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.block-title {
+  margin-bottom: 8px;
+}
+
+.block-text {
+  color: #434455;
+}
+
+.block-icon {
+  fill: #2e2f42;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+  justify-content: center;
+}
+
+.features-list .block-text {
+  /* padding-top: 8px; */
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
